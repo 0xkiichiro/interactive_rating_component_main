@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+main {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  color: hsl(217, 12%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+  font-family: "Overpass", sans-serif;
+}
+
+#card_container {
+  max-width: 40vh;
+  min-width: 35vh;
+  background-color: hsl(213, 19%, 18%);
+  padding: 3rem 2rem;
+  border-radius: 2rem;
+}
+
+#text_align {
+  max-width: 35vh;
+  min-width: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 1rem 0;
+  color: hsl(0, 0%, 100%);
+}
+
+#selected {
+  background-color: hsl(217, 12%, 33%);
+  color: hsl(25, 97%, 53%);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin: 1.5rem 0;
+  font-weight: 500;
+}
